@@ -1,0 +1,13 @@
+spring:
+  h2:
+    console:
+      enabled: true
+
+server:
+  port: 9192
+
+currency:
+  api-url: https://api.ratesapi.io
+  base: EUR
+  symbols: GBP,USD,HKD
+
